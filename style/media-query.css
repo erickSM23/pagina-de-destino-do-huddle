@@ -1,5 +1,61 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 992px){
-    
+    main {
+        background:hsl(257, 40%, 49%) url(../images/bg-desktop.svg) no-repeat  right center;
+        background-size: cover;
+    }
+
+    main > div#logo {
+        padding: 10px 0px 20px 110px;
+    }
+
+    main > section#conteiner {
+        height: 700px;
+        width: 80vw;
+    }
+
+    section#conteiner > div#imagem {
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+
+    section#conteiner > div#conteudo {
+        float: right;
+        width: 50%;
+        height: 100%;
+        padding: 30px;
+
+        text-align: left;
+    }
+
+    div#conteudo > h1 {
+        width: 80%;
+
+        font-size: 2em;
+        font-weight: 600;
+    }
+
+    div#conteudo > p {
+        width: 95%;
+
+        font-weight: 400;
+    }
+
+    div#conteudo > a {
+       display: inline-block;
+       width: 200px;
+
+       text-align: center;
+    }
+
+    main > div#icones {
+        align-self: end;
+        margin-top: 100px;
+    }
+
+    div#icones > i {
+        font-size: 14px;
+    }
 }
