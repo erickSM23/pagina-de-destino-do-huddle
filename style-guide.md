@@ -18,7 +18,7 @@ The designs were created to the following widths:
 
 ## Typography
 
-### Headings
+### 
 
 - Family: [Poppins](https://fonts.google.com/specimen/Poppins)
 - Weights: 400, 600
