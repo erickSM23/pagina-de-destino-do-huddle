@@ -9,7 +9,7 @@
     }
 
     main {
-        min-height: 100vh;
+        height: 100vh;
         background:hsl(257, 40%, 49%) url(../images/bg-desktop.svg) no-repeat  right center;
         background-size: cover;
     }
@@ -20,13 +20,20 @@
 
     main > section#conteiner {
         height: 700px;
-        width: 80vw;
+        width: 90vw;
     }
 
     section#conteiner > div#imagem {
         float: left;
         width: 50%;
         height: 100%;
+    
+        background-image: none;
+    }
+
+    div#imagem > img {
+        display: block;
+        width: 100%;
     }
 
     section#conteiner > div#conteudo {

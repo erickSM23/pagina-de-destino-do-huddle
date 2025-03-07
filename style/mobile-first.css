@@ -73,6 +73,10 @@ section#conteiner > div#imagem {
     background-size: cover;
 }
 
+div#imagem > img {
+    display: none;
+}
+
 section#conteiner > div#conteudo {
     height: 250px;
     display: block;
