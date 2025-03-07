@@ -5,6 +5,7 @@
     body, html {
         overflow-x: hidden;
         min-height: 100vh;
+        min-width: 100vw;
 
         background-color:hsl(257, 40%, 49%);
     }
