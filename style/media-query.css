@@ -10,6 +10,7 @@
     }
 
     main {
+        overflow-x: hidden;
         height: 100vh;
         background:hsl(257, 40%, 49%) url(../images/bg-desktop.svg) no-repeat  right center;
         background-size: cover;
