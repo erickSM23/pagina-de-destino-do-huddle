@@ -1,7 +1,15 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 992px){
+
+    body, html {
+        min-height: 100vh;
+
+        background-color:hsl(257, 40%, 49%);
+    }
+
     main {
+        min-height: 100vh;
         background:hsl(257, 40%, 49%) url(../images/bg-desktop.svg) no-repeat  right center;
         background-size: cover;
     }
